@@ -1,0 +1,31 @@
+name: Run Python Analysis
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # Allows manual execution from GitHub UI
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt || true  # Ignores error if file doesn't exist
+
+      - name: Run script
+        run: python Code/data_analysis.py
+
+      - name: Upload generated report
+        uses: actions/upload-artifact@v3
+        with:
+          name: Reports
+          path: Reports/
