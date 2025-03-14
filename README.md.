@@ -1,15 +1,16 @@
-# Qatar Visitor Arrivals Analysis
+# CS Workshop Group Project
 
-## 📌 Overview
-This project analyzes visitor arrival trends in Qatar using data from `qatar_visitor_arrivals.csv`.  
-The analysis includes data cleaning, visualization, and insights extraction.
+## 📌 Project Overview
+This project analyzes visitor arrivals in Qatar using Python. It includes:
+- Data analysis and visualization with Matplotlib.
+- Automated report generation.
+- Version control with GitHub.
 
-## 📊 Features
-- Reads and cleans visitor arrival data.
-- Generates a **line graph** of total visitor arrivals over time.
-- Finds **highest & lowest visitor months**.
-- Creates a **report with key insights**.
-- Saves all results in the `Reports` folder.
+## 📂 Folder Structure
+- **Code/** → Python scripts (`data_analysis.py`)
+- **Data/** → CSV dataset (`qatar_visitor_arrivals.csv`)
+- **Reports/** → Output plots and reports (`visitor_arrivals_plot.png`, `visitor_arrivals_report.txt`)
+- **Documentation/** → Any guides or coursework documents
 
-## 🛠️ How to Run
+## 🚀 How to Run
 1. Clone the repository:
