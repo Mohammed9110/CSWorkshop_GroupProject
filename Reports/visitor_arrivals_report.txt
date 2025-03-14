@@ -1,0 +1,13 @@
+🔴 Highest Visitors: 2136504.0 in 2019-12
+🟢 Lowest Visitors: 13312.0 in 2021-04
+🔵 Average Monthly Visitors: 527266.93
+
+📊 Yearly Average Visitor Arrivals:
+Year
+2018    1.007017e+06
+2019    1.135466e+06
+2020    5.290627e+05
+2021    5.089875e+04
+2022    2.133157e+05
+2023    3.378232e+05
+2024    4.072864e+05
