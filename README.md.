@@ -12,5 +12,3 @@ This project analyzes visitor arrivals in Qatar using Python. It includes:
 - **Reports/** → Output plots and reports (`visitor_arrivals_plot.png`, `visitor_arrivals_report.txt`)
 - **Documentation/** → Any guides or coursework documents
 
-## 🚀 How to Run
-1. Clone the repository:
